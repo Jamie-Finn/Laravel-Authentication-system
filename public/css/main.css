@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+	background: #fff;
+	margin: 40px auto;
+	text-align: center;
+	overflow-y: scroll; 
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Logo width and height are set here instead of using an external image editor */
+.logo {
+	width: 150px;
+	height: 103px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li a {
+	color: #a7a7a7;
+}
+
+#auth-body {
+	background-color: #f7f7f7;
+	padding: 20px;
+	text-align: left;
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); /* Don't forget to include Vendor prefixes if you use this app in production. */
+}
